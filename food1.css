@@ -1,0 +1,25 @@
+.piz1 img{ 
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    
+    
+}
+.piz1{
+    display: flex;
+    justify-content: space-between;
+} 
+.name {
+    font-size: 35px;
+    margin: 40px;
+    margin-top: 80px;
+}
+p{
+    margin: 41px;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+#pizza{
+    background-color: rgb(217, 43, 43);
+}

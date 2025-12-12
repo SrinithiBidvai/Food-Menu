@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+
+}
+#title{
+    background-color: rgb(217, 43, 43);
+    margin: 0;
+    display: flex;
+    justify-content:space-between;
+    
+}
+#car{
+    height: 3em;
+    margin: 10px;
+    fill: white;
+    stroke: black;
+    stroke-width: 15px;
+
+}
+#cart{
+    display: inline-block;
+    margin-right: 20px;
+    margin: 0;
+}
+#cart:hover{
+    background-color: rgb(218, 4, 4);
+    display: flex;
+    justify-content: end;
+    display: inline-block;
+    cursor:pointer;
+}
+
+h2{
+    margin: 10px;
+}
+#cafe{
+    color: white;
+    font-family:Baskerviller;
+    font-weight: 100;
+    font-size: 35px;
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+#browse{
+    background-color: rgb(231, 79, 79);
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+}
+#pizza a   , #burger a , #sides a , #dessert a{    
+    color: white;
+    margin: 0;
+    padding: 10px;
+    font-size: 22px;
+    text-decoration: None;
+}
+#pizza:hover , #burger:hover , #sides:hover , #dessert:hover{
+    background-color: rgb(217, 43, 43);
+    transition: 0.5s;
+    cursor: pointer;
+}
+#browse div {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+h3{
+    margin: 0;
+    padding: 10px;
+}
+.acart{
+    display: inline-flex;
+    border: solid green 2px;
+    border-radius: 10px ;
+    margin: 0;
+    margin-bottom: 20px;
+    margin-left: 40px;
+   
+}
+.acart div{
+    margin: 0;
+    padding: 0;
+}
+.acart p {
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 15px;    
+}
+.acart p:hover {
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 15px;   
+    cursor: pointer; 
+}

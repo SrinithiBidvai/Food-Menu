@@ -1,0 +1,25 @@
+.sid img{ 
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    
+    
+}
+.sid{
+    display: flex;
+    justify-content: space-between;
+}
+.name {
+    font-size: 35px;
+    margin: 40px;
+    margin-top: 80px;
+}
+p{
+    margin: 41px;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+#sides{
+    background-color: rgb(217, 43, 43);
+}
